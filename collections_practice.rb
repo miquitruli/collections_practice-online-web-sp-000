@@ -42,14 +42,13 @@ def find_a(array)
   a_array=[]
   array.each do|individual|
     arrays = individual.split("")
-    if arrays[0] == "a"
-      a_array<<join
-    else
-      nil
-    end
+  if arrays[0] == "a"
+    a_array<<join
+  else
+    nil
   end
   a_array
-end 
+end
 
 
 
