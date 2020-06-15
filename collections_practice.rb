@@ -53,4 +53,5 @@ end
 
 def sum_array(array)
   array.inject{|add|add.sum}
+  return add
 end
