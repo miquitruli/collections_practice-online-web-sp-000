@@ -43,7 +43,7 @@ def find_a(array)
   array.each do|individual|
     arrays = individual.split("")
   if arrays[0] == "a"
-    a_array<<join
+    a_array<<arrays.join
   else
     nil
   end
