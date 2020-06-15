@@ -37,3 +37,23 @@ def kesha_maker(array)
   end
   final_array
 end
+
+def find_a(array)
+  a_array=[]
+  array.each do|individual|
+    arrays = individual.split("")
+    if arrays[0] == "a"
+      a_array<<join
+    else
+      nil
+    end
+  end
+  a_array
+end 
+
+
+
+
+
+
+    end
